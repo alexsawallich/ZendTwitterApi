@@ -18,7 +18,7 @@
 	},
 	"require": {
 		"php": ">=5.5",
-		"j7mbo/twitter-api-php": "dev-master"
+		"j7mbo/twitter-api-php" : "=1.0.5"
 	},
 	"autoload": {
         "psr-4": {
