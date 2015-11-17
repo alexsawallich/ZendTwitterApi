@@ -12,7 +12,7 @@ Just add
 
     "alexsawallich/zend-twitter-api": "dev-master"
 
-to your application's `composer.json`.
+to your application's `composer.json` and execute `php composer.phar update`.
 
 Then copy `vendor/alexsawallich/zend-twitter-api/config/zend-twitter-api.global.php.dist` from to `./autoload/zend-twitter-api.global.php`. Open
 the copied file and set the options, according to your twitter-application.
