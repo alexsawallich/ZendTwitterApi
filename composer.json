@@ -1,0 +1,32 @@
+{
+	"name": "alexsawallich/zend-twitter-api",
+	"description": "Zend Framework 2-Module which wraps J7mbo's PHP Twitter API.",
+	"type": "library",
+	"keywords": ["twitter", "api", "zend", "module", "zf"],
+	"homepage": "http://www.alex-sawallich.com",
+	"authors": [
+		{
+			"name": "Alex Sawallich",
+			"email": "kontakt@alexsawallich.de",
+			"homepage": "http://www.alex-sawallich.com",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/alexsawallich/ZendTwitterApi/issues",
+		"source": "https://github.com/alexsawallich/ZendTwitterApi"
+	},
+	"require": {
+		"php": ">=5.5",
+		"j7mbo/twitter-api-php": "dev-master"
+	},
+	"autoload": {
+        "psr-4": {
+            "ZendTwitterApi\\": "src/"
+        },
+        "classmap": [
+        	"",
+        	"src/"
+        ]
+    }
+}

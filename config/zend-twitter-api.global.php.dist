@@ -1,0 +1,9 @@
+<?php
+return [
+    'zend-twitter-api' => [
+        'oAuthAccessToken' => '',
+        'oAuthAccessTokenSecret' => '',
+        'consumerKey' => '',
+        'consumerSecret' => ''
+    ]
+];
